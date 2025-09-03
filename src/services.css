@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+*{
+  padding: 2px;
+}
+.serviescontainer{
+    margin-left: 15px;
+}
+.serviescontainer h1{
+  font-family: "Noto Serif", serif;
+  font-size: 6rem;
+  font-weight: 300;
+}
+.feautred-events {
+  margin: 0;
+  padding: 0;
+}
+.offers h1{
+  font-family: "Noto Serif", serif;
+  font-size: 4em;
+  font-weight: 200;
+}
+.feautred-events h1{
+  font-family: "Noto Serif", serif;
+  font-size: 4em;
+  font-weight: 200;
+}
+
+.feautred-events .row,
+.feautred-events .col-md-8,
+.feautred-events .col-md-4,
+.feautred-events .col-6 {
+  padding: 0;
+  margin: 0;
+}
+
+.feautred-events img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; 
+  display: block;
+}
+/* Featured Events Responsive Grid */
+.feautred-events .row {
+  margin: 0;
+}
+
+.feautred-events [class*="col-"] {
+  padding: 2px; /* small gap between images */
+}
+
+.feautred-events img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ensures image fills cell without distortion */
+  display: block;
+  border-radius: 4px; /* optional: rounded corners */
+}
+.footer{
+    background-color: #fefefe;
+}
+.footer-img{
+     height: 170px;
+}
+.designed{
+    color: #92837f;
+    font-weight: 100;
+    font-size: 12px;
+}
+/* Mobile: 2 images per row */
+@media (max-width: 768px) {
+  .feautred-events .col-md-8,
+  .feautred-events .col-md-4,
+  .feautred-events .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .p-founder{
+    font-size: 15px;
+  }
+  .serviescontainer h1{
+    font-size: 4rem;
+  }
+  .feautred-events h1{
+  font-size: 3rem;
+
+}
+.offers{
+    font-size: 13px;
+}
+}
+
+
+/* Very small screens: 1 image per row */
+@media (max-width: 480px) {
+  .feautred-events .col-md-8,
+  .feautred-events .col-md-4,
+  .feautred-events .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+    .p-founder{
+    font-size: 15px;
+  }
+  .serviescontainer{
+    font-size: 15px;
+  }
+}
+

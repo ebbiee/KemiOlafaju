@@ -1,0 +1,157 @@
+.nav-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #fff;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1000;
+}
+
+.img-container img {
+  height: 150px;
+}
+
+/* Hamburger */
+.menu-toggle {
+  display: none;
+  background: none;
+  color: #000;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  z-index: 1100;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links ul li {
+  margin-right: 30px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: #1E1E1E;
+  position: relative;
+}
+
+/* underline hover effect */
+.nav-links ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #151515;
+  transition: width 0.8s ease;
+}
+
+.nav-links ul li a:hover::after {
+  width: 100%;
+}
+.footer{
+    background-color: #fefefe;
+}
+.footer-img{
+     height: 170px;
+}
+.designed{
+    color: #92837f;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  /* Drawer menu */
+  .nav-links {
+    position: fixed;
+    top: 0;
+    left: -100%; /* hidden by default */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 70%; /* take 70% of screen width */
+    background: #fff;
+    transition: left 0.4s ease-in-out;
+    box-shadow: 4px 0 12px rgba(0,0,0,0.2);
+  }
+
+  /* Slide in when active */
+  .nav-links.active {
+    left: 0;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  .nav-links ul li {
+    margin: 20px 0;
+  }
+
+  .btn-appointment {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+.nav-links ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links ul li{
+  color: #1E1E1E;
+    /* text-decoration: none; */
+    margin-right: 30px;
+}
+.nav-links ul li a {
+  font-family: sans-serif;
+   color: #1E1E1E;
+    text-decoration: none;
+    position: relative;
+  padding-bottom: 4px;
+}
+.nav-links ul li a::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #151515;
+  transition: width 0.8s ease;
+}
+.nav-links ul li a:hover::after{
+  width: 100%;
+}
+
+.nav-links button{
+    height: 49px;
+    width: 225px;
+    border-radius: 100px;
+    cursor: pointer;
+}

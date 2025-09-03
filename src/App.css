@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+*{
+  padding: 0;
+}
+
+
+
+
+/* === Hero Section === */
+.welcome {
+  width: 881px;
+  color: #1E1E1E;
+
+}
+.welcome h1{
+  font-family: "Noto Serif", serif;
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.hero {
+  height: 60vh;
+  position: relative;
+  align-items: flex-start; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.hero-overlay {
+  color: #1E1E1E;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 12px;
+  width: 447px;
+}
+
+.hero-overlay h1 {
+   font-family: sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+/* === Testimonials === */
+.testimonials {
+  padding: 4rem 2rem;
+  /* background: #F5E6E0; */
+  text-align: center;
+}
+
+.testimonial {
+  max-width: 500px;
+  margin: 1.5rem auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-bottom: 3px solid #D4AF37;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.footer {
+  background: #1E1E1E;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
+/* emblaaa */
+.embla {
+  overflow: hidden;
+  width: 100%; 
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  position: relative;
+  min-width: 60%; 
+  margin-right: 5px; 
+}
+
+.embla__slide img {
+  /* display: block; */
+  width: 71%;
+  height: auto;
+  object-fit: contain; 
+  border-radius: 10px; 
+}
+/* .second img{
+   height: 1440.79px;
+  object-fit: contain; 
+} */
+ .aboutushead h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto Serif", serif;
+  font-size: 80px;
+  font-weight: 100;
+  text-decoration: underline;
+ }
+ .aboutuscontent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto; 
+  margin-bottom: 7px;
+ }
+ .aboutuscontent p{
+ width: 100%; 
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 250;
+  line-height: 29px;
+
+ }
+ .btn-readMore{
+  border: none 0px solid;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  background-color: #ffffff;
+  font-family: "Gilda Display", serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  
+ }
+ .btn-readMore:hover{
+  background-color: #ccc;
+ }
+ .btn-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .footer{
+    background-color: #fefefe;
+}
+.footer-img{
+     height: 170px;
+}
+.designed{
+    color: #92837f;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+
+
+
+
+
+/* === Mobile Responsiveness === */
+@media (max-width: 768px) {
+  /* HERO */
+  .welcome {
+    width: 100%;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .welcome h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .hero {
+    height: auto;
+    min-height: 60vh;
+    padding: 2rem 1rem;
+    flex-direction: column;
+  }
+
+  .hero-overlay {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .hero-overlay h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-overlay p {
+    font-size: 1rem;
+  }
+
+  /* EMBLA SLIDER */
+  .embla__slide {
+    min-width: 90%; /* show 1 slide at a time */
+  }
+
+  .embla__slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ABOUT */
+  .aboutushead h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .aboutuscontent {
+    width: 90%;
+  }
+
+  .aboutuscontent p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .btn-readMore {
+    width: 120px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  /* TESTIMONIALS */
+  .testimonials {
+    padding: 2rem 1rem;
+  }
+
+  .testimonial {
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+
+  /* FOOTER */
+  .footer {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+}
+
+/* === Extra Small Devices (phones < 480px) === */
+@media (max-width: 480px) {
+  .welcome h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-overlay h1 {
+    font-size: 1.2rem;
+  }
+
+  .hero-overlay p {
+    font-size: 0.9rem;
+  }
+
+  .aboutushead h1 {
+    font-size: 2rem;
+  }
+}
+
+
+
