@@ -82,7 +82,7 @@ export default function About() {
       <MDBRow className="align-items-center mb-5">
         <MDBCol md="5" className="text-center">
           <img
-            src="../src/assets/Aunty-kemi.jpg"
+            src="/assets/Aunty-kemi.jpg"
             alt="Founder"
             className="img-fluid shadow-4"
           />
@@ -156,7 +156,7 @@ export default function About() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
-              <img src="../src/assets/Kemilogo.PNG" alt="" className="footer-img" />
+              <img src="/assets/Kemilogo.PNG" alt="" className="footer-img" />
              
             </MDBCol>
 

@@ -12,7 +12,7 @@ export default function NavBar() {
   return (
     <div className="nav-container">
       <div className="img-container">
-        <img src="../src/assets/Kemilogo.PNG" alt="Logo" />
+        <img src="/assets/Kemilogo.PNG" alt="Logo" />
       </div>
 
       <button className="menu-toggle" onClick={toggleMenu}>
@@ -27,7 +27,10 @@ export default function NavBar() {
           <li><Link to="/consultation">Consultation</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
-        <button className="btn-appointment">Book Appointment</button>
+       <Link to="/consultation">
+  <button className="btn-appointment">Book Appointment</button>
+</Link>
+
       </nav>
     </div>
   );

@@ -1,11 +1,11 @@
 import "./services.css"
 import 'bootstrap/dist/css/bootstrap.min.css' 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import auntyTeju from "../src/assets/AuntyTeju.jpg"
-import firstCouple from "../src/assets/firstcouple.jpg";
-import random from "../src/assets/raandom.jpg"
-import couple from "../src/assets/couples.jpg"
-import mike from "../src/assets/Fabbunmi.jpg"
+import auntyTeju from "/assets/AuntyTeju.jpg"
+import firstCouple from "/assets/firstcouple.jpg";
+import random from "/assets/raandom.jpg"
+import couple from "/assets/couples.jpg"
+import mike from "/assets/Fabbunmi.jpg"
 
 import {
   MDBContainer,
@@ -31,7 +31,7 @@ export default function Services() {
         <MDBRow className="align-items-center mb-5">
         <MDBCol md="5" className="text-center">
           <img
-            src="../src/assets/Fabbunmi.jpg"
+            src="/assets/Fabbunmi.jpg"
             alt="Founder"
             className="img-fluid shadow-4"
           />
@@ -185,7 +185,7 @@ export default function Services() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
-              <img src="../src/assets/Kemilogo.PNG" alt="" className="footer-img" />
+              <img src="/assets/Kemilogo.PNG" alt="" className="footer-img" />
              
             </MDBCol>
 

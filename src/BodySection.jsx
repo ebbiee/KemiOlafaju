@@ -49,13 +49,13 @@ export default function BodySection() {
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
         <div className="embla__slide">
-          <img src="../src/assets/firstcouple.jpg" alt="First" />
+          <img src="/assets/firstcouple.jpg" alt="First" />
         </div>
         <div className="embla__slide second">
-          <img src="../src/assets/raandom.jpg" alt="Second" />
+          <img src="/assets/raandom.jpg" alt="Second" />
         </div>
         <div className="embla__slide">
-          <img src="../src/assets/brothermike.jpg" alt="Third" />
+          <img src="/assets/brothermike.jpg" alt="Third" />
         </div>
       </div>
     </div>
@@ -97,7 +97,7 @@ export default function BodySection() {
             <MDBCardBody className="py-4 mt-2">
               <div className="d-flex justify-content-center mb-4">
                 <img
-                  src="../src/assets/rounded-img1.png"
+                  src="/assets/rounded-img1.png"
                   className="rounded-circle shadow-1-strong"
                   width="100"
                   height="100"
@@ -136,7 +136,7 @@ export default function BodySection() {
             <MDBCardBody className="py-4 mt-2">
               <div className="d-flex justify-content-center mb-4">
                 <img
-                  src="../src/assets/Fabunmi.png"
+                  src="/assets/Fabunmi.png"
                   className="rounded-circle shadow-1-strong"
                   width="100"
                   height="100"
@@ -175,7 +175,7 @@ export default function BodySection() {
             <MDBCardBody className="py-4 mt-2">
               <div className="d-flex justify-content-center mb-4">
                 <img
-                  src="../src/assets/teju.png"
+                  src="/assets/teju.png"
                   className="rounded-circle shadow-1-strong"
                   width="100"
                   height="100"
@@ -238,7 +238,7 @@ export default function BodySection() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
-              <img src="../src/assets/Kemilogo.PNG" alt="" className="footer-img" />
+              <img src="/assets/Kemilogo.PNG" alt="" className="footer-img" />
              
             </MDBCol>
 

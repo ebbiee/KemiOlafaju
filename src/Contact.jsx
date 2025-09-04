@@ -113,7 +113,7 @@ export default function Contact() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
-              <img src="../src/assets/Kemilogo.PNG" alt="" className="footer-img" />
+              <img src="/assets/Kemilogo.PNG" alt="" className="footer-img" />
              
             </MDBCol>
 
