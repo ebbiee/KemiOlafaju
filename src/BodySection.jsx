@@ -1,11 +1,8 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 // import  { useEffect } from 'react'
 import useEmblaCarousel from "embla-carousel-react"
 import Autoplay from "embla-carousel-autoplay"
 import { Link } from "react-router-dom";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import "@fortawesome/fontawesome-free/css/all.min.css";
 import {
   MDBCard,
   MDBCardBody,
@@ -16,7 +13,6 @@ import {
   MDBTypography,
   MDBFooter
 } from "mdb-react-ui-kit";
-// import "./embla.css"
 
 
 
