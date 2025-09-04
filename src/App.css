@@ -180,6 +180,21 @@
     font-size: 2rem;
     line-height: 1.2;
   }
+   .btn-readMore{
+  border: none 0px solid;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  background-color: #ffffff;
+  font-family: "Gilda Display", serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  
+ }
+ .btn-readMore:hover{
+  background-color: #ccc;
+ }
 
   .hero {
     height: auto;

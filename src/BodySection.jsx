@@ -223,13 +223,13 @@ export default function BodySection() {
 
         <div>
           <a href='https://www.tiktok.com/@k.o.events?is_from_webapp=1&sender_device=pc' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='tiktok' />
+            <MDBIcon color='primary' fab icon='tiktok' />
           </a>
           <a href='https://www.instagram.com/kemiolafaju_events/' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='facebook -f' />
+            <MDBIcon color='primary' fab icon='facebook -f' />
           </a>
           <a href='https://www.instagram.com/kemiolafaju_events/' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='instagram' />
+            <MDBIcon color='primary' fab icon='instagram' />
           </a>
         </div>
       </section>

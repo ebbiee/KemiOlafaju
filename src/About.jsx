@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import './About.css'
 import {
   MDBContainer,
@@ -21,9 +22,12 @@ export default function About() {
         <p className="lead">
           Turning Moments into Memories, One Event at a Time.
         </p>
+        <Link to="/consultation">
+        
         <button className='btn-book'>
           Book a Consultation
         </button>
+        </Link>
       </div>
 
       {/* Introduction */}
@@ -141,13 +145,13 @@ export default function About() {
 
         <div>
           <a href='https://www.tiktok.com/@k.o.events?is_from_webapp=1&sender_device=pc' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='tiktok' />
+            <MDBIcon color='primary' fab icon='tiktok' />
           </a>
           <a href='https://www.instagram.com/kemiolafaju_events/' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='facebook -f' />
+            <MDBIcon color='primary' fab icon='facebook -f' />
           </a>
           <a href='https://www.instagram.com/kemiolafaju_events/' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='instagram' />
+            <MDBIcon color='primary' fab icon='instagram' />
           </a>
         </div>
       </section>

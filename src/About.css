@@ -42,5 +42,13 @@
 .fw{
   font-size: 45px;
 }
+.btn-book{
+   height: 49px;
+    width: 225px;
+    border-radius: 100px;
+    cursor: pointer;
+    color: none;
+    text-decoration: none;
+}
 }
 
