@@ -1,4 +1,4 @@
-import "./consultation.css"
+import "./Consultation.css"
 import {
   MDBContainer,
   MDBRow,
